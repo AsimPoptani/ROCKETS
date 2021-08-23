@@ -1,0 +1,11 @@
+Partlist exported from /home/asim/EAGLE/projects/Rockets/Schematic.sch at 18/08/2021 08:32
+
+Qty Value           Device          Package     Parts      Description                                                                                                     
+1                   CONN_02         1X02        J1         Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+1   BMP280          BMP280          BMP280      BMP1                                                                                                                       
+1   ESP32           ESP32           ESP32       ESP1                                                                                                                       
+1   GPS             GPS             GPS         GPS1                                                                                                                       
+1   MICROSD         MICROSD         MICROSD     MICROSD1                                                                                                                   
+2   MPU6050         MPU6050         MPU6050     MPU1, MPU2                                                                                                                 
+1   RFM69HCW        RFM69HCW        RFM69HCW    RFM69HCW1                                                                                                                  
+1   V_REG_LD1117VXX V_REG_LD1117VXX TO-220-ALT2 U$1        LD1117VXX voltage regulator. We carry the 3.3V version (COM-00526) in TO-220 package.                           
