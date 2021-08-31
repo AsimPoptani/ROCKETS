@@ -2876,6 +2876,16 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <junction x="88.9" y="27.94"/>
 <label x="76.2" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="MPU2" gate="G$1" pin="GND"/>
+<wire x1="157.48" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="35.56" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="30.48" x2="137.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
+<junction x="137.16" y="30.48"/>
+<label x="127" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CLK" class="0">
 <segment>
@@ -3162,17 +3172,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="D1" gate="D1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="35.56" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="MPU2" gate="G$1" pin="GND"/>
-<wire x1="157.48" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="35.56" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="30.48" x2="137.16" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
-<junction x="137.16" y="30.48"/>
 </segment>
 </net>
 </nets>
